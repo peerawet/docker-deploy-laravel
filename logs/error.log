@@ -1,0 +1,10 @@
+2024/09/13 17:42:21 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/13 17:53:36 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/13 17:57:42 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/13 18:05:19 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/13 19:46:12 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/13 19:50:19 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/14 20:21:42 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/14 21:00:41 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/14 22:40:26 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
+2024/09/14 23:04:29 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/nginx.conf:32
