@@ -76,17 +76,3 @@ services:
       - laravel
     entrypoint: [ "composer", "--ignore-platform-reqs" ]
 
-    artisan:
-    build:
-      context: .
-      dockerfile: ./.docker/php/Dockerfile
-    container_name: artisan
-    volumes:
-      - ./src:/var/www/html:delegated
-    working_dir: /var/www/html
-    user: laravel
-    entrypoint: [ "php", "/var/www/html/artisan" ]
-    networks:
-      - laravel
-
-
