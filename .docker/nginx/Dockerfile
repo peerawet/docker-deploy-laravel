@@ -20,7 +20,7 @@ FROM nginx:stable-alpine
 ENV TZ=Asia/Bangkok
 
 # Copy the Nginx configuration files into the container
-COPY ./.docker/nginx/nginx.conf /etc/nginx/nginx.conf
+
 COPY ./.docker/nginx/default.conf /etc/nginx/conf.d/default.conf
 
 # Create the directory for the web root (workspace)
