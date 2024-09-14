@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'LineSeed'; /* ตั้งชื่อฟอนต์ที่คุณต้องการ */
+    src: url('LINESeedSansTH_W_Rg.woff2') format('woff2'); /* เปลี่ยน path และรูปแบบฟอนต์ตามที่คุณอัปโหลด */
+    font-weight: normal; /* รูปแบบตัวอักษรทั่วไป */
+    font-style: normal; /* รูปแบบตัวอักษรทั่วไป */
+  }
+
+  @font-face {
+    font-family: 'LineSeed'; /* ใช้ชื่อเดียวกันกับข้างบน */
+    src: url('LINESeedSansTH_W_Bd.woff2') format('woff2'); /* เปลี่ยน path และรูปแบบฟอนต์ Bold ตามที่คุณอัปโหลด */
+    font-weight: bold; /* รูปแบบตัวอักษร Bold */
+    font-style: normal; /* รูปแบบตัวอักษรทั่วไป */
+  }
+
+  /* หากคุณต้องการใช้ฟอนต์ตัวอักษรของคุณใน body tag */
+  body {
+    font-family: 'LineSeed', sans-serif !important; /* ใช้ชื่อฟอนต์ที่คุณกำหนด และกำหนด fallback font แบบ sans-serif หากฟอนต์ไม่พร้อมใช้งาน */
+  }
