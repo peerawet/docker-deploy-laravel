@@ -1,0 +1,28 @@
+name: Deploy to VM
+
+on:
+  push:
+    branches:
+      - main  # Change to the branch you want to trigger the deployment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy to VM
+        run: |
+          ssh -o StrictHostKeyChecking=no -p 2223 peerawet@serveo.net << 'EOF'
+            cd /path/to/your/app
+            git pull origin main
+            docker-compose -f /path/to/your/docker-compose.yml down
+            docker-compose -f /path/to/your/docker-compose.yml up -d --build
+          EOF
