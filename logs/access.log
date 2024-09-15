@@ -1,0 +1,8 @@
+172.18.0.1 - - [15/Sep/2024:11:21:42 +0700] "GET / HTTP/1.1" 302 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:11:21:49 +0700] "GET /login HTTP/1.1" 200 6282 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:11:47:14 +0700] "GET /login HTTP/1.1" 200 6282 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:11:47:30 +0700] "POST /login HTTP/1.1" 500 1139754 "http://localhost/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:11:47:31 +0700] "GET /favicon.ico HTTP/1.1" 200 0 "http://localhost/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:11:47:40 +0700] "GET /_ignition/health-check HTTP/1.1" 200 40 "http://localhost/login" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:13:09:59 +0700] "GET / HTTP/1.1" 302 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+172.18.0.1 - - [15/Sep/2024:13:10:06 +0700] "GET /login HTTP/1.1" 200 6282 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
