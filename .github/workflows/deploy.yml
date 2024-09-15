@@ -3,7 +3,7 @@ name: Deploy to VM
 on:
   push:
     branches:
-      - main  # Change to the branch you want to trigger the deployment test test
+      - main  # Change to the branch you want to trigger the deployment test test test
 
 jobs:
   deploy:
